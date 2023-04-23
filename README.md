@@ -6,7 +6,7 @@ In this case, four different steps are followed:
 
 * Creating a data class named ```Record``` that will serve as the blueprint for the financial transaction records that the blocks of the ledger will store.
 * Changing the existing Block data class by replacing the generic data attribute with a record attribute that’s of type Record.
-* Creating additional user input areas in the Streamlit application. These input areas should collect the relevant information for each financial record that you’ll store in the PyChain ledger.
+* Creating additional user input areas in the Streamlit application. These input areas should collect the relevant information for each financial record that will be stroed in the PyChain ledger.
 * Testing the complete ```PyChain``` ledger.
 
 ---
